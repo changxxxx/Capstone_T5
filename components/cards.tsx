@@ -44,12 +44,12 @@ const StyledLink = ({ href, name }: StyledLinkProps) => (
   </Link>
 );
 
-const Cards = ({ href, name }: StyledLinkProps) => (
-  <FlexContainer>
-    <Card>
-      <StyledLink href = {href} name = {name}></StyledLink>
+export default function Cards() {
+  return (
+    <FlexContainer>
+      <Card>
+        <StyledLink href="/about" name="About Page &rarr;" />
       </Card>
-  </FlexContainer>
-);
-
-export default Cards;
+    </FlexContainer>
+  );
+}
