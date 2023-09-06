@@ -8,7 +8,7 @@ import {
 } from "../components/sharedstyles";
 import Cards from "../components/cards";
 import ProjectProfile from "@/components/project-profile";
-import ProjectProfileHeader from "@/components/project-profile-header";
+// import ProjectProfileHeader from "@/components/project-profile-header";
 
 export default function Home() {
   return (

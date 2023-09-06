@@ -50,7 +50,7 @@ export const DropdownHeader = () => {
             <Button variant="text">Cancel</Button>     
             <Frame7106>
                 <Button variant="outlined">Save as draft</Button>
-                <Button variant="contained">Apply</Button>
+                <Button variant="contained" href="application_sent">Apply</Button>
             </Frame7106>
         </Container>
       </Header>

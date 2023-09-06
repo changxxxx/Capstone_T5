@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {DropdownHeader} from '@/components/dropdown_header';
 
 //灰
 const ApplyContainer = styled.div`
@@ -97,8 +98,11 @@ const ApplyPage: React.FC = () => (
       <Question2>
         Answer this question 2
       </Question2>
+        <DropdownHeader />
+      
     </Framework>
   </ApplyContainer>
+
 );
 
 export default ApplyPage;
